@@ -16,6 +16,12 @@
 		6EEE7E69271FA7C30063C707 /* MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E68271FA7C30063C707 /* MoviesTests.swift */; };
 		6EEE7E73271FA7C30063C707 /* MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E72271FA7C30063C707 /* MoviesUITests.swift */; };
 		6EEE7E75271FA7C40063C707 /* MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E74271FA7C40063C707 /* MoviesUITestsLaunchTests.swift */; };
+		6EEE7E9B271FA8600063C707 /* ExtUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E92271FA8600063C707 /* ExtUIColor.swift */; };
+		6EEE7E9C271FA8600063C707 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E93271FA8600063C707 /* UIView+AutoLayout.swift */; };
+		6EEE7E9D271FA8600063C707 /* ViewCodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E94271FA8600063C707 /* ViewCodeType.swift */; };
+		6EEE7E9E271FA8600063C707 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E97271FA8600063C707 /* Colors.swift */; };
+		6EEE7E9F271FA8600063C707 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E99271FA8600063C707 /* Font.swift */; };
+		6EEE7EA0271FA8600063C707 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE7E9A271FA8600063C707 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		6EEE7E6E271FA7C30063C707 /* MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEE7E72271FA7C30063C707 /* MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITests.swift; sourceTree = "<group>"; };
 		6EEE7E74271FA7C40063C707 /* MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EEE7E92271FA8600063C707 /* ExtUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtUIColor.swift; sourceTree = "<group>"; };
+		6EEE7E93271FA8600063C707 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		6EEE7E94271FA8600063C707 /* ViewCodeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeType.swift; sourceTree = "<group>"; };
+		6EEE7E97271FA8600063C707 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6EEE7E99271FA8600063C707 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		6EEE7E9A271FA8600063C707 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,8 @@
 		6EEE7E50271FA7C10063C707 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				6EEE7E91271FA8600063C707 /* Common */,
+				6EEE7E95271FA8600063C707 /* DesignSystem */,
 				6EEE7E51271FA7C10063C707 /* AppDelegate.swift */,
 				6EEE7E53271FA7C10063C707 /* SceneDelegate.swift */,
 				6EEE7E55271FA7C10063C707 /* ViewController.swift */,
@@ -127,6 +141,42 @@
 			path = MoviesUITests;
 			sourceTree = "<group>";
 		};
+		6EEE7E91271FA8600063C707 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE7E92271FA8600063C707 /* ExtUIColor.swift */,
+				6EEE7E93271FA8600063C707 /* UIView+AutoLayout.swift */,
+				6EEE7E94271FA8600063C707 /* ViewCodeType.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6EEE7E95271FA8600063C707 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE7E96271FA8600063C707 /* Color */,
+				6EEE7E98271FA8600063C707 /* Font */,
+				6EEE7E9A271FA8600063C707 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		6EEE7E96271FA8600063C707 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE7E97271FA8600063C707 /* Colors.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		6EEE7E98271FA8600063C707 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE7E99271FA8600063C707 /* Font.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +187,7 @@
 				6EEE7E4A271FA7C10063C707 /* Sources */,
 				6EEE7E4B271FA7C10063C707 /* Frameworks */,
 				6EEE7E4C271FA7C10063C707 /* Resources */,
+				6EEE7EA1271FA8E80063C707 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -253,12 +304,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EEE7EA1271FA8E80063C707 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint; then\n    swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EEE7E4A271FA7C10063C707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEE7EA0271FA8600063C707 /* Theme.swift in Sources */,
+				6EEE7E9C271FA8600063C707 /* UIView+AutoLayout.swift in Sources */,
 				6EEE7E56271FA7C10063C707 /* ViewController.swift in Sources */,
+				6EEE7E9B271FA8600063C707 /* ExtUIColor.swift in Sources */,
+				6EEE7E9E271FA8600063C707 /* Colors.swift in Sources */,
+				6EEE7E9F271FA8600063C707 /* Font.swift in Sources */,
+				6EEE7E9D271FA8600063C707 /* ViewCodeType.swift in Sources */,
 				6EEE7E52271FA7C10063C707 /* AppDelegate.swift in Sources */,
 				6EEE7E54271FA7C10063C707 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXS85H2W5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Movies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXS85H2W5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Movies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
